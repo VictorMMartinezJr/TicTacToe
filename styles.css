@@ -11,3 +11,25 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game_container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  place-items: center;
+  width: 270px;
+}
+.game_cell {
+  width: 90px;
+  height: 80px;
+  border: 2px solid black;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
