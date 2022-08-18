@@ -67,8 +67,14 @@ body {
 .pink {
   color: var(--pink);
 }
+.pink.cell_shadow {
+  text-shadow: 0 0 20px var(--pink);
+}
 .yellow {
   color: var(--yellow);
+}
+.yellow.cell_shadow {
+  text-shadow: 0 0 20px var(--yellow);
 }
 @media screen and (min-width: 390px) {
   .game_cell {
