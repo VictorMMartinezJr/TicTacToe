@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+:root {
+  --main-bg: #293462;
+  --white: #f2f2f2;
+  --pink: #d61c4e;
+  --yellow: #fedb39;
+}
 
 *,
 *::before,
@@ -9,27 +16,76 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Permanent Marker", cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-bg);
 }
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  height: 80%;
+}
+.container_h1 {
+  color: var(--white);
+  font-size: 2.5rem;
+  letter-spacing: 3px;
 }
 .game_container {
   display: grid;
   grid-template-columns: repeat(3, auto);
   place-items: center;
-  width: 270px;
 }
 .game_cell {
   width: 90px;
   height: 80px;
-  border: 2px solid black;
-  font-size: 2rem;
-  cursor: pointer;
+  border: 5px solid #4a47a3;
+  font-size: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.player_active {
+  color: var(--white);
+  letter-spacing: 5px;
+  font-size: 2rem;
+}
+.btn_restart {
+  padding: 0.5rem 2rem;
+  font-family: inherit;
+  background-color: var(--pink);
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: var(--white);
+  cursor: pointer;
+}
+.pink {
+  color: var(--pink);
+}
+.yellow {
+  color: var(--yellow);
+}
+@media screen and (min-width: 390px) {
+  .game_cell {
+    width: 120px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container_h1 {
+    font-size: 4rem;
+  }
+  .game_cell {
+    width: 200px;
+    height: 150px;
+    font-size: 6rem;
+  }
+  .player_active {
+    font-size: 3rem;
+  }
 }
