@@ -6,7 +6,8 @@
 
 [https://tictactoe-victormtzcodes.netlify.app/](https://tictactoe-victormtzcodes.netlify.app/)
 
-![tic-tac-toe (1)](https://user-images.githubusercontent.com/93169407/185770521-02dce8d9-5ce0-4903-b211-b7457bfcc044.png)
+
+![tic-tac-toe](https://user-images.githubusercontent.com/93169407/185772858-04f6c897-b171-49b7-9636-bd6f102e7ba2.png)
   
   
 <h2>💻 Built with</h2>
