@@ -1,6 +1,6 @@
-<h1 align="center" id="title">Tic Tac Toe</h1>
+<h1 id="title">Tic Tac Toe</h1>
 
-<p id="description" align="center">A game of Tic Tac Toe built with vanilla JavaScript. Key concepts covered include Arrays &amp; Event listeners</p>
+<p id="description">A game of Tic Tac Toe built with vanilla JavaScript. Key concepts covered include Arrays &amp; Event listeners</p>
 
 <h2>🚀 Demo</h2>
 
